@@ -19,6 +19,6 @@
   "require": {
     "drupal/cas": "^2.2",
     "drupal/cas_attributes": "^2.0@beta",
-    "drupal/externalauth": "2.0"
+    "drupal/externalauth": "^2.0"
   }
 }
