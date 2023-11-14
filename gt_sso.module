@@ -1,0 +1,7 @@
+/**
+ * Implements hook_uninstall().
+ */
+function gt_sso_uninstall() {
+  $module_list = array('cas', 'cas_attributes', 'externalauth');
+  drupal_uninstall_modules($module_list, TRUE);
+}
