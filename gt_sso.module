@@ -4,4 +4,8 @@
 function gt_sso_uninstall() {
   $module_list = array('cas', 'cas_attributes', 'externalauth');
   drupal_uninstall_modules($module_list, TRUE);
+
+  // Remove any settings that the module has set.
+  \Drupal::state()->delete('cas.settings');
+  \Drupal::state()->delete('cas_attributes.settings');
 }
