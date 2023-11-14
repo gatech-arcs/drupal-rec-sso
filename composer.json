@@ -17,6 +17,8 @@
     "source": "https://github.com/gatech-arcs/gtcos_drupal_sso"
   },
   "require": {
-    "drupal/cas": "^2.1"
+    "drupal/cas": "^2.2",
+    "drupal/cas_attributes": "^2.0@beta",
+    "drupal/externalauth": "2.0"
   }
 }
