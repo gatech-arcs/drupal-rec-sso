@@ -50,7 +50,7 @@ jobs:
       # For Drupal Linting settings
       # https://www.drupal.org/docs/contributed-modules/code-review-module/php-codesniffer-command-line-usage
       - name: Lint Code Base
-        uses: super-linter/super-linter:slim-v5
+        uses: github/super-linter:slim-v5
         env:
           DEFAULT_BRANCH: main
           VALIDATE_ALL_CODEBASE: true
