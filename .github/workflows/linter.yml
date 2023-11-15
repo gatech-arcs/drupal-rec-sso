@@ -1,14 +1,9 @@
 ---
 #################################
-#################################
 ## Super Linter GitHub Actions ##
-#################################
 #################################
 name: Lint Code Base
 
-#############################
-# Start the job on all push #
-#############################
 on:
   push:
     # branches-ignore: [master, main]
@@ -16,9 +11,6 @@ on:
   pull_request:
     branches: [master, main]
 
-###############
-# Set the Job #
-###############
 jobs:
   build:
     # Name the Job
@@ -38,9 +30,6 @@ jobs:
     # Load all steps #
     ##################
     steps:
-      ##########################
-      # Checkout the code base #
-      ##########################
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
@@ -48,11 +37,8 @@ jobs:
           # list of changed files within `super-linter`
           fetch-depth: 0
 
-      ################################
-      # Run Linter against code base #
-      ################################
       - name: Lint Code Base
-        uses: super-linter/super-linter@v5
+        uses: super-linter/super-linter/slim@v5
         env:
           VALIDATE_ALL_CODEBASE: true
           DEFAULT_BRANCH: main
