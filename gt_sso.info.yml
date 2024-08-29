@@ -1,10 +1,9 @@
 name: GT Drupal SSO
 package: GT
 type: module
-description: Configuration for Georgia Tech's SSO based auth and attributes (if available) for Drupal sites
-core_version_requirement: ^10
+description: Applies Georgia Tech's CAS SSO based authentication for Drupal sites
+core_version_requirement: ^10 || ^11
 
 dependencies:
   - drupal:cas
-  - drupal:cas_attributes
   - drupal:externalauth
