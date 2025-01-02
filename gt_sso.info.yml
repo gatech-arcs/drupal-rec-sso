@@ -1,9 +1,0 @@
-name: GT Drupal SSO
-package: GT
-type: module
-description: Applies Georgia Tech's CAS SSO based authentication for Drupal sites
-core_version_requirement: ^10 || ^11
-
-dependencies:
-  - drupal:cas
-  - drupal:externalauth

@@ -1,0 +1,7 @@
+name: 'Georgia Tech CAS v6 SSO'
+type: 'Users'
+description: 'Applies Georgia Tech CAS v6 SSO authentication'
+
+config:
+  import:
+    cas: '*'

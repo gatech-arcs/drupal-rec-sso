@@ -3,7 +3,7 @@
 ![Visibility: Intentionally Public](https://flat.badgen.net/badge/Visibility/Intentionally%20Public/orange)
 ![Protected Data: None](https://flat.badgen.net/badge/Protected%20Data/None/red)
 
-GT SSO based Drupal auth and attributes wrapper
+Drupal Recipe for Georgia Tech's CAS v6 logins
 
 ## Settings for sso.gatech.edu CAS server v6 / protocol v3
 
