@@ -1,6 +1,6 @@
 {
-  "name": "gtsciences/gt_sso",
-  "description": "Provides Single Sign On for Georgia Tech's CAS v6.",
+  "name": "gtsciences/gt-sso",
+  "description": "Drupal recipe for Single Sign On with Georgia Tech's CAS v6.",
   "type": "drupal-recipe",
   "keywords": ["Drupal recipe", "recipe", "CAS", "Authentication"],
   "license": "GPL-2.0-or-later",
