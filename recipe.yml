@@ -1,6 +1,6 @@
-name: 'Georgia Tech CAS v6 SSO'
-type: 'Users'
-description: 'Applies Georgia Tech CAS v6 SSO authentication'
+name: 'GT-SEO-Social'
+type: 'Search'
+description: 'Drupal recipe for baseline SEO and Social settings'
 
 install:
   - cas
