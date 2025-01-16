@@ -35,4 +35,3 @@ jobs:
           # YAML is validated via eslint plugin for Drupal
           VALIDATE_YAML_PRETTIER: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  

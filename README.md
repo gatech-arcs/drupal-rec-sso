@@ -1,7 +1,7 @@
 # GT Drupal SSO
 
 ![Visibility: Intentionally Public](https://flat.badgen.net/badge/Visibility/Intentionally%20Public/f2a)
-![Protected Data: None](https://flat.badgen.net/badge/Protected%20Data/None/green)
+![Protected Data: None](https://flat.badgen.net/badge/Protected%20Data/None/f96854)
 
 Drupal Recipe for Georgia Tech's CAS v6 logins
 
