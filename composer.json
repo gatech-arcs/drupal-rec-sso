@@ -2,12 +2,16 @@
     "name": "gtsciences/gt-sso",
     "description": "Drupal recipe for Single Sign On with Georgia Tech's CAS v6.",
     "type": "drupal-recipe",
-    "keywords": ["Drupal recipe", "recipe", "CAS", "Authentication"],
+    "keywords": ["drupal recipe", "drupal recipes", "recipe", "CAS", "authentication"],
     "license": "GPL-2.0-or-later",
+    "homepage": "https://cos.gatech.edu/",
     "authors": [
         {
             "name": "Michael Sheldon",
-            "homepage": "https://cos.gatech.edu/",
+            "role": "Maintainer"
+        },
+        {
+            "name": "Georgia Tech College of Sciences",
             "role": "Maintainer"
         }
     ],
