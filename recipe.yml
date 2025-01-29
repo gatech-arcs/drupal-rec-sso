@@ -1,6 +1,6 @@
-name: 'GT-SEO-Social'
-type: 'Search'
-description: 'Drupal recipe for baseline SEO and Social settings'
+name: GT-SSO
+type: Users
+description: Drupal recipe for Single Sign On with Georgia Tech's CAS v6
 
 install:
   - cas

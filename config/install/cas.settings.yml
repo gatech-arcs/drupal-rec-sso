@@ -1,13 +1,13 @@
 langcode: en
-login_link_enabled: true
-login_link_label: 'Log in with your GT account'
+login_link_enabled: false
+login_link_label: 'CAS Login'
 login_success_message: ''
 server:
   version: '3.0'
   protocol: https
   hostname: sso.gatech.edu
   port: 443
-  path: /cas
+  path: /
   verify: 0
   cert: ''
 gateway:
@@ -19,7 +19,7 @@ gateway:
     pages: '<front>'
   method: client_side
 forced_login:
-  enabled: false
+  enabled: true
   paths:
     id: null
     negate: false
@@ -29,7 +29,7 @@ user_accounts:
   auto_register: false
   auto_register_follow_registration_policy: false
   email_assignment_strategy: 0
-  email_hostname: 'gatech.edu'
+  email_hostname: ''
   email_attribute: ''
   auto_assigned_roles: {  }
   restrict_password_management: true
